@@ -47,7 +47,7 @@ const createPokemonCard = (pokemon) => {
     const imgContainer = document.createElement('img'); // Crear el elemento img para referenciar las imagenes
     imgContainer.src = pokemon.sprites.front_default;
     imgContainer.alt = pokemon.name;
-    // Elemento HTML para mostrar la imagen del pokemon // se identa las funcionalidades creadas een javascript
+    // Elemento HTML para mostrar la imagen del pokemon // se identa las funcionalidades creadas een
     const pokemonInnerHTML = `  
         <div class="img-container">
             ${imgContainer.outerHTML}                                                 <!-- Insertar la imagen del pokemon -->
